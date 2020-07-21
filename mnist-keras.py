@@ -64,7 +64,7 @@ model.fit(x=x_train, y=y_train, epochs=20)
 model.evaluate(x_test, y_test)
 
 # Prediction
-image_index = 1231
-plt.imshow(x_test[image_index].reshape(28, 28),cmap='Greys')
-pred = model.predict(x_test[image_index].reshape(1, 28, 28, 1))
+image_idx = 1231
+plt.imshow(x_test[image_idx].reshape(28, 28),cmap='Greys')
+pred = model.predict(x_test[image_idx].reshape(1, 28, 28, 1))
 print('individual prediction:', pred.argmax())
