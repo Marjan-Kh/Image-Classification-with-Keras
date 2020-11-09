@@ -1,5 +1,5 @@
 # This program shows how to build a convolutional neural network
-# to classify hand written digits with  Keras API by applying on
+# to classify hand written digits with Keras API by applying on
 # the MNIST digits dataset. 
 #
 #===============================================================
